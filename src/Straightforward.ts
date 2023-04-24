@@ -292,7 +292,7 @@ export class Straightforward extends EventEmitter {
       const [hostname, port] = req.url.split(":", 2) // format is: hostname:port
       req.locals.urlParts = { host: hostname, port: parseInt(port), path: "" }
     } else {
-      const urlParts = new URL(req.url)
+      const urlParts = new URL(req.url, `http://${req.headers.host}`);
       req.locals.urlParts = {
         host: urlParts.host,
         port: parseInt(urlParts.port || "80"),
