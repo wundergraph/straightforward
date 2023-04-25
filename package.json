@@ -49,18 +49,18 @@
   ],
   "dependencies": {
     "debug": "^4.3.4",
-    "yargs": "^17.6.2"
+    "yargs": "^17.7.1"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
-    "@types/node": "^18.11.9",
-    "ava": "^5.1.0",
-    "esbuild": "^0.15.14",
-    "esbuild-register": "^3.4.1",
+    "@types/node": "^18.16.0",
+    "ava": "^5.2.0",
+    "esbuild": "^0.17.18",
+    "esbuild-register": "^3.4.2",
     "got-cjs": "^12.5.4",
     "hpagent": "^1.2.0",
     "proxy-agent": "^5.0.0",
-    "tsup": "^6.5.0",
-    "typescript": "^4.9.3"
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5"
   }
 }
