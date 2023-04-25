@@ -1,6 +1,6 @@
 {
   "name": "@wundergraph/straightforward",
-  "version": "4.2.3",
+  "version": "4.2.5",
   "description": "A straightforward forward-proxy.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -8,6 +8,10 @@
   "files": [
     "/dist"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "exports": {
     ".": {
       "require": "./dist/index.js",
