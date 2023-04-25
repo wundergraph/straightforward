@@ -15,11 +15,11 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "repository": "berstend/straightforward",
+  "repository": "wundergraph/straightforward",
   "author": "berstend",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/berstend/straightforward/issues"
+    "url": "https://github.com/wundergraph/straightforward/issues"
   },
   "engines": {
     "node": ">=16"
